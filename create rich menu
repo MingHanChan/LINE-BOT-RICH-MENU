@@ -1,0 +1,4 @@
+curl -X POST https://api.line.me/v2/bot/richmenu ^
+-H 'Authorization Bearer {your channel access token}' ^
+-H 'Content-Type applicationjson' ^
+-d "@{your JSON file path}"
