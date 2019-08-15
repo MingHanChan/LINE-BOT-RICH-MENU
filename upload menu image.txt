@@ -1,0 +1,4 @@
+curl -v -X POST https://api.line.me/v2/bot/richmenu/richmenu-7ec224fb866f74ccc1dd083527d5adce/content ^
+-H "Authorization: Bearer {your chennel access token}" ^
+-H "Content-Type: image/jpeg" ^
+-T {image path}
