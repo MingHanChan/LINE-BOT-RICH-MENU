@@ -45,4 +45,5 @@ WebHook是處理Chat bot的核心，因為大部分的Bot都是以回復用戶�
 
 透過下面官方說明文件的圖可以大概了解WebHook在整個LINT Bot的結構上是怎麼運作的。
 ![image](https://developers.line.biz/media/messaging-api/overview/messaging-api-architecture-cffb1d9b.png)
+
 當LINE用戶與Bot互動時，LINE平台會將用戶所傳送的訊息轉成JSON格式以以HTTPS POST的方式送給你後面的WebHook Server，接著你的後台根據所收到的WebHook event來做出反應，並且透過LINE平台回應給使用者
